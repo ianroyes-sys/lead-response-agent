@@ -1,0 +1,17 @@
+{
+  "business": {
+    "name": "Summit Heating & Air",
+    "vertical": "hvac",
+    "owner_name": "Sam",
+    "phone": "(555) 555-0100",
+    "booking_link": "https://calendly.com/summit-hvac/estimate",
+    "service_area": "the greater metro area",
+    "tone": "friendly, professional, and prompt"
+  },
+  "source": "data/sample-leads.csv",
+  "delivery": {
+    "outbox_dir": "outbox",
+    "slack_webhook_url": ""
+  },
+  "poll_minutes": 5
+}

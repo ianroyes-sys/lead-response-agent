@@ -1,0 +1,22 @@
+{
+  "name": "lead-response-agent",
+  "version": "1.0.0",
+  "description": "AI agent that watches inbound leads and auto-drafts personalized replies + follow-up sequences for local businesses. Owner approves and sends.",
+  "type": "module",
+  "engines": {
+    "node": ">=18"
+  },
+  "bin": {
+    "lead-agent": "src/index.js"
+  },
+  "scripts": {
+    "demo": "node src/index.js run --source data/sample-leads.csv --mock",
+    "demo:live": "node src/index.js run --source data/sample-leads.csv",
+    "run": "node src/index.js run",
+    "watch": "node src/index.js watch",
+    "reset": "node src/index.js reset"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.110.0"
+  }
+}
